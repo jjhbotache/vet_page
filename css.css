@@ -1,0 +1,45 @@
+ul{
+    list-style: none;
+}
+
+#header{
+    min-height: 15em;
+}
+#header .row{
+    padding: 1em ;
+    border: 0.2em solid slategrey;
+    border-radius: 1em;
+    box-shadow: 5px 5px 7px 1px ;
+}
+
+#navbar{
+    background: #b2aeae;
+    border: 0.1em solid black;
+    box-shadow: 5px 5px 7px 1px ;
+    border-radius: 0.7em;
+}
+
+#body img{
+    border: black 0.1em solid;
+}
+.minicontainer{
+    background: #e3e1e1;
+    border-radius: 1em;
+    border: black 0.1em solid;
+    margin: 1em 0em;
+    padding: 1em;
+}
+#traveler-dog{
+    height: auto;
+    width: 100%;
+}
+
+.strech{
+    float: left;
+    margin: 0px 1em;
+    height: 5em;
+}
+hr{
+    border: solid 2px black;
+}
+
