@@ -8,30 +8,87 @@
     <link rel="stylesheet" href="css.css">
   </head>
   <body>
-    <header class="container-fluid d-flex justify-content-center align-items-center " id="header">
-      <div class="row">
-        <div class="col-sm-2">
+
+    <header class="container-sm d-flex justify-content-center align-items-center " id="header">
+      <div class="row w-100">
+        <div class="d-none d-sm-block col-sm-2">
           <img src="media/huellas.png" alt=""class="img-fluid d-block m-auto">
         </div>
-        <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-center">
           <span class="fs-2">Centro veterinario</span>
           <br>
           <span class="fs-5">Centro veterinario</span>
         </div>
-        <div class="col-4">
+        <div class="d-none d-sm-block col-4">
           <img src="media/gato  y perro.png" alt="" class="img-fluid d-block m-auto">
         </div>
       </div>
     </header>
 
-    <section id="navbar" >
-      <ol class="d-flex flex-row">
+    <section id="navbar" class=" container-sm my-3 py-2">
+      <ul class="d-flex flex-row justify-content-around">
         <li><a href="#">Servicios</a></li>
         <li><a href="#">Productos</a></li>
         <li><a href="#">Guarderia</a></li>
         <li><a href="#">Promociones</a></li>
-      </ol>
+      </ul>
     </section>
+
+    <section id="body" class="container-sm ">
+      <div class="row gx-5 px-sm-3">
+        <div class="col-12 col-lg-8 p-1">
+          <div class="col minicontainer">
+            <h4>Cuidados y educacion para su perro</h4>
+            <img src="media/dog_biting_newspaper.png" alt="" class="strech ">
+            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat assumenda velit, quibusdam libero minus rerum tempora! Consequuntur animi, maiores aspernatur repellat provident necessitatibus sapiente et fuga inventore, sed recusandae odio ipsum sunt distinctio voluptatem saepe excepturi exercitationem eius. Nulla maxime saepe ipsam omnis expedita laborum quas reprehenderit voluptas labore delectus! <a href="">ver más...</a></p>                          
+          </div>
+          <div class="col minicontainer">
+            <div class="row w-100">
+              <div class="col-12 col-lg-8 "> 
+                <h4>Salir de viaje con su mascota</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eveniet asperiores obcaecati autem molestias praesentium nemo officia. Soluta beatae doloremque quisquam, voluptas quaerat harum tempore ut omnis recusandae earum tenetur et aliquid, praesentium sunt vel cum id repellendus reprehenderit quis corporis. Vero atque possimus sunt debitis quos adipisci, sit consectetur! <a href="">ver más...</a></p>
+              </div>
+              <div class=" col-12 col-lg-4 d-flex align-content-center p-3">
+                <img src="media/traveler_dog.png" alt="" id="traveler-dog" class="d-block my-auto">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 ps-2 minicontainer ">
+          <form action="#" method="get" id="form">
+            <div class="container">
+              <h4>Solicitar cita medica</h4>
+              <div class="row">
+                <div class="col-3">
+                  <div class="col-12 mt-3"><label for="mascota">Mascota: </label></div>
+                  <div class="col-12 mt-3"><label for="edad">Edad: </label></div>
+                  <div class="col-12 mt-3"><label for="Raza">Raza: </label></div>
+                  <div class="col-12 mt-3"><label for="fecha">fecha: </label></div>
+                  <div class="col-12 mt-3"><label for="edad">Edad: </label></div>
+                  <div class="col-12 mt-3"><label for="Amo">Amo: </label></div>
+                </div>
+                <div class="col-9">
+                  <div class="col-12 mt-3"><input type="text" name="mascota" id="" placeholder="Ingrese nombre"></div>
+                  <div class="col-12 mt-3"><input type="date" name="edad" id=""></div>
+                  <div class="col-12 mt-3"><input type="text" name="Raza" id="" placeholder="Ingrese nombre"></div>
+                  <div class="col-12 mt-3"><input type="date" name="fecha" id=""></div>
+                  <div class="col-12 mt-3"><input type="time" name="edad" id=""></div>
+                  <div class="col-12 mt-3"><input type="text" name="Amo" id="" placeholder="Ingrese nombre"></div>
+                </div>
+              </div>
+              <input type="submit" value="Validar cita" class="btn btn-secondary rounded-pill py-0 d-block mx-auto my-4">
+            </div>
+          </form>
+        </div>
+        <hr>
+        <footer class="text-center">
+          <h1 class="fs-6">Contáctenos</h1>
+          <h6>linea gratuita 156566416514</h6>
+          <h6>correo: preguntas@caninosyfelinos.com</h6>
+        </footer>
+      </div>
+    </section>
+    
 
 
 
